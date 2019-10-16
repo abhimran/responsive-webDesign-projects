@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body,
+html {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Common css end here */
+
+.navClass {
+    background-color: #02918c;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: all 0.5s linear;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #cfc91d;
+}
+
+#banner-full {
+    background: url(../images/overlay.jpg) center center no-repeat;
+    padding: 110px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-full:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.banner-txt h4 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.banner-txt h1 {
+    font-weight: 800;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    color: #fff;
+}
+
+.banner-txt p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner-shape {
+    margin: 50px 0;
+}
+
+.banner-button {
+    color: #444;
+    font-weight: 800;
+    background-color: #cfc91d;
+    border-color: transparent;
+    transition: all 0.5s linear;
+    border-radius: 0;
+}
+
+.banner-button:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+/* End of banner part */
+
+#about-full {
+    padding: 100px 0
+}
+.section-top h1 {
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+}
+
+.section-top p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 40px;
+}
+.section-top h1 {
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+}
+
+.column1 i {
+    font-size: 30px;
+    color: #02918c;
+    transition: all 0.5s linear;
+}
+
+.column1 h4 {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.column1 p {
+    line-height: 21px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    width: 80%;
+    margin: auto;
+}
+
+.column1:hover {
+    background-color: #f1f1f1;
+}
+
+.column1:hover i {
+    color: orange;
+    transform: rotate(360deg);
+}
+
+/* End of about me */
+
+#service-full{
+    background: url(../images/section2.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+#service-full .column1 p{
+    width: 80%;
+    margin-left: 0;
+}
+
+/* End of service */
+
+#work-full{
+    padding: 100px 0;
+}
+
+.bottom img{
+    width: 100%;
+    
+}
+.img-overlay{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(2, 145, 140, 0.57);
+    left: 10%;
+    top: 10%;
+    text-align: center;
+    color: #fff;
+    transform: scale(0);
+    transition: all 0.5s linear;
+    line-height: normal;
+}
+
+.overlay-txt{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom:hover .img-overlay{
+    transform: scale(1);
+}
+
+/* End of my work */
+
+.cont-from{
+    background-color: #0b0b0b;
+}
+.main-form input,
+.main-form textarea{
+    border-style: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    resize: none;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0;
+}
+.main-form input:focus{
+    background-color: transparent;
+    border-color: firebrick;
+    box-shadow: none;
+    color: #fff;
+}
+.main-form textarea:focus{
+    background-color: #444;
+    border-color: #fff;
+    box-shadow: none;
+    color: #fff;
+}
+.frm-btn button{
+    border-style: none;
+    background-color: #cfc91d;
+    color: #000;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+    border: 1px  solid transparent;
+    border-radius: 0;
+}
+
+/* End of contact us */
+
+#footer-full{
+    background-color: #000;
+}

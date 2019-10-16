@@ -1,0 +1,230 @@
+@media(max-width: 575px) {
+    .navbar-light .navbar-toggler {
+        border-color: #02918c;
+        background-color: #fff;
+        ;
+    }
+
+    .banner-txt h4 {
+        font-size: 20px !important;
+    }
+
+    .banner-txt h1 {
+        font-size: 35px !important;
+        letter-spacing: 10px !important;
+    }
+
+    .banner-txt p {
+        font-size: 15px !important;
+    }
+
+    .banner-shape {
+        margin: 25px 0 !important;
+    }
+
+    #about-full {
+        padding: 50px 0 !important;
+    }
+
+    .section-top h1 {
+        font-size: 30px !important;
+    }
+
+    .section-top p {
+        font-size: 12px !important;
+    }
+
+    #service-full {
+        padding: 50px 0 !important;
+    }
+
+    .section-top {
+        text-align: center !important;
+    }
+
+    .section-top p {
+        width: 100% !important;
+    }
+
+    .section-bottom {
+        text-align: center !important;
+    }
+
+    .column1 p {
+        margin: auto !important;
+    }
+
+    #work-full {
+        padding: 50px 0 !important
+    }
+
+    .overlay-txt p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .overlay-txt h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+
+    .navbar-light .navbar-toggler {
+        border-color: #02918c;
+        background-color: #fff;
+        ;
+    }
+
+    .banner-txt h4 {
+        font-size: 25px !important;
+    }
+
+    .banner-txt h1 {
+        font-size: 40px !important;
+        letter-spacing: 12px !important;
+    }
+
+    .banner-shape {
+        margin: 30px 0 !important;
+    }
+
+    #about-full {
+        padding: 60px 0 !important;
+    }
+    .section-top h1 {
+        font-size: 35px !important;
+    }
+
+    .section-top p {
+        font-size: 14px !important;
+    }
+    .section-bottom{
+        border-right-style: none!important;
+    }
+    .column1 p {
+        margin: auto !important;
+    }
+    #service-full {
+        padding: 70px 0 !important;
+    }
+
+    .section-top {
+        text-align: center !important;
+    }
+
+    .section-top p {
+        width: 100% !important;
+    }
+
+    .section-bottom {
+        text-align: center !important;
+    }
+
+    .column1{
+        padding:5px 0 !important;
+        margin-bottom: 5px !important;
+    }
+     #work-full {
+        padding: 70px 0 !important
+    }
+    .overlay-txt p {
+        font-size: 9px;!important;
+        text-align: center;!important;   
+    }
+
+    .overlay-txt h4{
+        font-size: 11px;!important;
+        text-align: center;!important;
+    }
+    
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #02918c;
+        background-color: #fff;
+        ;
+    }
+     .banner-txt h4 {
+        font-size: 25px !important;
+    }
+
+    .banner-txt h1 {
+        font-size: 45px !important;
+        letter-spacing: 14px !important;
+    }
+
+    .banner-shape {
+        margin: 35px 0 !important;
+    }
+    .banner-txt p{
+        font-size: 17px !important;
+    }
+     #about-full {
+        padding: 70px 0 !important;
+    }
+    .section-top h1 {
+        font-size: 38px !important;
+    }
+
+    .section-top p {
+        font-size: 16px !important;
+        width: 100%!important;
+    }
+     .section-bottom {
+        text-align: center !important;
+    }
+    
+    .column1{
+        padding:5px 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .column1 p {
+        margin: auto !important;
+    }
+    #work-full {
+        padding: 70px 0 !important
+    }
+    .overlay-txt p {
+        font-size: 10px;!important;
+        text-align: center;!important;   
+    }
+
+    .overlay-txt h4{
+        font-size: 12px;!important;
+        text-align: center;!important;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .banner-txt h4 {
+        font-size: 30px !important;
+    }
+
+    .banner-txt h1 {
+        font-size: 50px !important;
+        letter-spacing: 16px !important;
+    }
+
+    .banner-shape {
+        margin: 40px 0 !important;
+    }
+    .banner-txt p{
+        font-size: 20px !important;
+    }
+    .overlay-txt p {
+        font-size: 14px;!important;
+        text-align: center;!important;   
+    }
+
+    .overlay-txt h4{
+        font-size: 18px;!important;
+        text-align: center;!important;
+        font-weight: 800;
+    }
+}
+

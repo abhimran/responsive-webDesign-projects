@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body,
+html {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Common css end here */
+
+#nav-full {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 17px;
+    border-width: 3px 5px;
+    border-style: solid;
+    border-color: transparent;
+    margin: 0 5px;
+    transition: all 0.4s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-color: #028794;
+    color: #028794;
+}
+
+/* End of navbar */
+
+.slider {
+    background: url(../images/background.jpg) center center no-repeat;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.slider2 {
+    background: url(../images/background5.png) center center no-repeat;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.slider3 {
+    background: url(../images/background8.jpg) center center no-repeat;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: transparent;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #028794
+}
+
+.banner-txt {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    bottom: 10%;
+    right: 7%;
+}
+
+.banner-txt h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+#about-full {
+    padding: 50px 0;
+}
+
+.about-txt p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.about-txt h3 {
+    font-size: 26px;
+    color: #028794;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* End of about us */
+
+#service-full {
+    padding: 50px 0;
+    background: url(../images/background2.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#service-full:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.service-top h3 {
+    font-size: 26px;
+    color: #028794;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.service-top p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.btm-txt h3 {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btm-txt p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.btm-txt h3 i {
+    border: 2px solid transparent;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: #007582;
+    color: #fff;
+    padding-top: 14px;
+    transition: all 0.5s linear;
+}
+
+.btm-txt h3 i:hover {
+    border-color: #fff;
+}
+
+/* End of our service*/
+
+#our-works {
+    padding: 50px 0;
+}
+
+.work-top h3 {
+    font-size: 25px;
+    color: #028794;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.work-top p {
+    font-size: 15px;
+    color: #303132;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #444;
+    text-transform: uppercase;
+    margin: 0 10px;
+    border-color: transparent;
+    
+}
+
+.work-img {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.overlay-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work-img:hover .img-overlay {
+    opacity: 1;
+}
+
+.mixitup-control-active {
+    background-color: #028794;
+    color: #fff;
+    border-style: none;
+}
+
+/* End of out latest works */
+
+#news{
+    padding: 50px 0;
+}
+.card-txt h5{
+    font-size: 15px;
+    color: #2a2b2c;
+    font-weight: 400;
+    line-height: 10px;
+}
+.card-txt span{
+    color: #028794;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 13px;
+}
+.card-txt p{
+    color: #313233;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+}
+.card-btn{
+    background-color: #028794;
+    float: right;
+}
+/* End of out latest news */
+
+#footer-top{
+    padding: 50px 0;
+    background-color: #070707; 
+}
+.footer-txt h3{
+    font-size: 19px;
+    color: #028794;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-txt ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+}
+.footer-txt i{
+    color: #028794;
+    margin-right: 5px;
+}
+#footer-bttom{
+    padding: 20px 0;
+    background-color: #070707; 
+}
+#footer-bttom h5{
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+#footer-bttom i{
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 8px 8px;
+    border: 1px solid transparent;
+    float: right;
+    color: #fff;
+    
+}
+#footer-bttom i:hover{
+    cursor: pointer;
+}
